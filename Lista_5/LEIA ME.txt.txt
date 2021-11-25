@@ -1,0 +1,10 @@
+Para que o script funcione no Windows é necessário alterar a política de execução dos comandos. Para isso,
+abra um terminal PowerShell e digite:
+
+1) Set-ExecutionPolicy -Scope CurrentUser Unrestricted -Force
+
+Esse comando permite a utilização dos comandos necessários para o ambiente virtual e a execução do script
+
+Após finalizar a execução dos programas/seu trabalho, caso queira voltar a política para o modo original:
+
+2) Set-ExecutionPolicy -Scope CurrentUser Restricted -Force
