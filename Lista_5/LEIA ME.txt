@@ -5,6 +5,7 @@ abra um terminal PowerShell e digite:
 
 Esse comando permite a utilização dos comandos necessários para o ambiente virtual e a execução do script
 
-Após finalizar a execução dos programas/seu trabalho, caso queira voltar a política para o modo original:
+Após finalizar a execução dos programas/seu trabalho, caso queira voltar a política para o modo original, basta utilizar
+o seguinte comando:
 
 2) Set-ExecutionPolicy -Scope CurrentUser Restricted -Force

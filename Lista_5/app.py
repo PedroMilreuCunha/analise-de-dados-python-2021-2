@@ -18,6 +18,7 @@ while True:
                 numeros.append(float(entrada))
                 contador += 1
         print(f"A média aritmética dos valores digitados é: {media_aritmetica.ma(numeros)} ")
+        input("Pressione enter para sair.")
         break
     elif operacao == 2:
         numeros = []
@@ -27,8 +28,10 @@ while True:
             print("Não existe raiz quadrada de valores negativos nos números reais.")
         else:
             print(f"A média geométrica dos valores digitados é: {media_geometrica.mg(numeros[0], numeros[1])}")
+            input("Pressione enter para sair.")
             break
     elif operacao == 3:
         numero = input("Digite o número inteiro para o qual você deseja saber o fatorial (Ex. 5! = 120).\t")
         fatorial.fact(numero)
+        input("Pressione enter para sair.")
         break

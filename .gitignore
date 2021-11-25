@@ -8,6 +8,7 @@ __pycache__/
 
 # Compressed files
 *.rar
+*.zip
 
 # Distribution / packaging
 .Python
