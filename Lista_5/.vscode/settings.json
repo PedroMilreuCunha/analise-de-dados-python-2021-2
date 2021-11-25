@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "./Lista_5/.venv/Scripts/python",
+    "python.terminal.activateEnvironment": true,
+  }
